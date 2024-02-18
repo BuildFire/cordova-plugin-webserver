@@ -45,7 +45,7 @@
         <source url="https://github.com/CocoaPods/Specs.git"/>
       </config>
       <pods use-frameworks="true">
-        <pod name="GCDWebServer" spec="~> 3.5.2"/>
+        <pod name="GCDWebServer" git="git@github.com:BuildFire/GCDWebServer/.git" branch="ios-13" configurations="Debug,Release"/>
       </pods>
     </podspec>
     
